@@ -2,10 +2,6 @@
   Serial Call and Response
   Language: Wiring/Arduino
 
-  This program sends an ASCII A (byte of value 65) on startup and repeats that
-  until it gets some data in. Then it waits for a byte in the serial port, and
-  sends three sensor values whenever it gets a byte in.
-
   The circuit:
   - potentiometers attached to analog inputs 0 and 1
   - pushbutton attached to digital I/O 2
