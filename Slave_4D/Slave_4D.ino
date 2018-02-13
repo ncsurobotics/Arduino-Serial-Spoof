@@ -1,13 +1,7 @@
-// Wire Slave Sender
-// by Nicholas Zambetti <http://www.zambetti.com>
-
-// Demonstrates use of the Wire library
-// Sends data as an I2C/TWI slave device
-// Refer to the "Wire Master Reader" example for use with this
-
-// Created 29 March 2006
-
-// This example code is in the public domain.
+// This is spoof of I2C slave code with address 0x4D
+// Jake 
+// 2/12/2018
+// Purpose: emulating seawolf serial board project
 
 
 #include <Wire.h>
